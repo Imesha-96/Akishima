@@ -15,11 +15,12 @@ public class ArrayAverage {
                 sum += scores[i][j]; 
             }
 
-            // average = sum / count
+            // average = sum / count Count
             double avg = (double)sum / scores[i].length;
 
             System.out.printf("| %.1f\n", avg); 
         }
     }
 }
+
 
